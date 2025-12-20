@@ -23,7 +23,6 @@ header .cta {
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(25px);
   padding: 50px 40px;
-  right: 128px;
 }
 
 header .cta .course-name {

@@ -40,6 +40,10 @@ section h2 {
   position: relative;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section h2::after {
   content: '';
   width: 80px;
@@ -66,6 +70,27 @@ section h2.light::after {
   background: var(--pink-color);
 }
 
-section .section-container {
+section .content-container {
   display: flex;
+}
+
+@media (max-width: 1040px) {
+  .wrapper {
+    max-width: 694px;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    padding: 0 32px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  section h2::after {
+    width: 50px;
+    bottom: 0;
+  }
 }

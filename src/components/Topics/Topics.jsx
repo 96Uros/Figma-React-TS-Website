@@ -22,7 +22,7 @@ export default function Topics() {
     <section id="topics" className="black">
       <div className="wrapper">
         <h2>What will you learn?</h2>
-        <div className="section-container">
+        <div className="content-container">
           <ul className="topics-list">
             <li
               onMouseEnter={() => setCurrentImage(topicsFrequencues)}

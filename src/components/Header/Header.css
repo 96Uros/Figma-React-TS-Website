@@ -64,3 +64,25 @@ header .cta .demo-btn {
   font-weight: 700;
   margin-top: 20px;
 }
+
+@media (max-width: 1040px) {
+  header .cta {
+    width: 356px;
+  }
+}
+
+@media (max-width: 720px) {
+  header .cta {
+    width: unset;
+    left: 32px;
+    right: 32px;
+  }
+
+  header .cta h1 {
+    font-size: 32px;
+  }
+
+  header .course-name {
+    margin-top: 0;
+  }
+}

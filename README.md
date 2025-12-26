@@ -28,3 +28,8 @@ This project is a pixel-perfect implementation of a Sound Design Course website,
 - `src/main.tsx` — Application bootstrap and root rendering.
 
 Created as an educational demonstration of Figma-to-React/TS conversion.
+Figma:
+<img width="1910" height="911" alt="Screenshot 2025-12-25 113601" src="https://github.com/user-attachments/assets/6bf57325-d46b-4027-9f0d-677aad25135a" />
+
+Project:
+<img width="1000" height="750" alt="frts" src="https://github.com/user-attachments/assets/5beb8f40-5378-4aca-ba71-baf07641150b" />
